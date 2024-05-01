@@ -172,4 +172,11 @@ h6 {
 .group-content-box.hover-effect-1 .vc_column_container:first-child:not(:hover) .deeper-content-box .inner:after {
   height: 0; }
 
+.group-content-box.hover-effect-1 .vc_column_container:hover {
+  color: var(--white-color); }
+  .group-content-box.hover-effect-1 .vc_column_container:hover h2 {
+    color: var(--white-color); }
+  .group-content-box.hover-effect-1 .vc_column_container:hover img {
+    filter: brightness(0) invert(1); }
+
 /*# sourceMappingURL=style.css.map */
