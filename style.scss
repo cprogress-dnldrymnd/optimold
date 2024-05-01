@@ -174,7 +174,12 @@ h6 {
 .deeper-gridbox.deeper-gridbox .grid-row {
     display: flex !important;
     flex-wrap: wrap;
+    &:before, &:after {
+        content: none !important;
+    }
     .grid-item {
+        float: none;
+        width: auto;
         &:not(:last-child) {
             margin-right: 1rem;
         }

@@ -140,8 +140,13 @@ h6 {
 .deeper-gridbox.deeper-gridbox .grid-row {
   display: flex !important;
   flex-wrap: wrap; }
-  .deeper-gridbox.deeper-gridbox .grid-row .grid-item:not(:last-child) {
-    margin-right: 1rem; }
+  .deeper-gridbox.deeper-gridbox .grid-row:before, .deeper-gridbox.deeper-gridbox .grid-row:after {
+    content: none !important; }
+  .deeper-gridbox.deeper-gridbox .grid-row .grid-item {
+    float: none;
+    width: auto; }
+    .deeper-gridbox.deeper-gridbox .grid-row .grid-item:not(:last-child) {
+      margin-right: 1rem; }
 
 @media (min-width: 768px) {
   .footer-grid.gutter-30 > .col {
