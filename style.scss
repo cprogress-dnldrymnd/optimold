@@ -54,6 +54,13 @@
                     padding-top: 100px;
                     padding-bottom: 100px;
                     max-width: 850px;
+                    .heading-box {
+                        h2 {
+                            @media(min-width: 1199px) {
+                                font-size: 60px;
+                            }
+                        }
+                    }
                 }
 
             }
