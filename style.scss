@@ -5,20 +5,22 @@
  * Description: Responsive WordPress Theme Tailored for Creative Websites
  * Author: Ninzio
  **/
-.header-style-2 #site-header {
-  position: static; }
+
+ .header-style-2 #site-header {
+	position: static;
+}
 
 .header-style-2 #main-nav > ul > li > a > span {
-  color: #393E46; }
-
+	color: #393E46;
+}
 #main-nav > ul > li > a {
-  line-height: 110px; }
-
+	line-height: 110px;
+}
 .header-button a {
-  background-color: #F56123;
-  color: #fff; }
+	background-color: #F56123;
+	color: #fff;
+}
 
 .site-header-inner, .site-header-inner .wrap-inner {
-  height: 110px; }
-
-/*# sourceMappingURL=style.css.map */
+	height: 110px;
+}
