@@ -24,7 +24,9 @@
 
 .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide {
   position: relative;
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
   .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image {
     position: absolute;
     left: 0;
@@ -40,5 +42,9 @@
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px; }
+
+.octavian-container.octavian-container {
+  max-width: 1550px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,6 +32,8 @@
             .swiper-slide {
                 position: relative;
                 min-height: 100vh;
+                display: flex;
+                align-items: center;
                 .bg-image {
                     position: absolute;
                     left: 0;
@@ -54,4 +56,9 @@
             }
         }
     }
+}
+
+.octavian-container.octavian-container {
+    max-width: 1550px;
+    width: 100%;
 }
