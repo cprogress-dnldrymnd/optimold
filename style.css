@@ -167,6 +167,8 @@ h6 {
       flex: 0 0 50%;
       max-width: 50%; }
     .form-holder.form-holder.form-holder .form-inner .wpcf7-submit {
-      background-color: var(--dark-color); }
+      background-color: var(--dark-color);
+      width: 100%;
+      height: 62px; }
 
 /*# sourceMappingURL=style.css.map */
