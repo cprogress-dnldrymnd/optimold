@@ -6,25 +6,46 @@
  * Author: Ninzio
  **/
 
- .header-style-2 #site-header {
-	position: static;
+.header-style-2 #site-header {
+    position: static;
 }
 
 .header-style-2 #main-nav > ul > li > a > span {
-	color: #393E46;
+    color: #393e46;
 }
 #main-nav > ul > li > a {
-	line-height: 110px;
+    line-height: 110px;
 }
 .header-button a {
-	background-color: #F56123;
-	color: #fff;
+    background-color: #f56123;
+    color: #fff;
 }
 
-.site-header-inner, .site-header-inner .wrap-inner {
-	height: 110px;
+.site-header-inner,
+.site-header-inner .wrap-inner {
+    height: 110px;
 }
 
 .swiper-slider-holder {
-    
+    .swiper-slider-inner {
+        .swiperSlider {
+            .swiper-slide {
+                position: relative;
+                .bg-image {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    text-align: right;
+                    img {
+                        width: 70%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                
+            }
+        }
+    }
 }
