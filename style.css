@@ -71,7 +71,8 @@ h6 {
         font-size: 24px;
         color: var(--text-color); }
 
-#site-header .octavian-container.octavian-container, .swiper-slider-holder .octavian-container.octavian-container {
+#site-header .octavian-container.octavian-container,
+.swiper-slider-holder .octavian-container.octavian-container {
   max-width: 1550px;
   width: 100%; }
 
@@ -97,6 +98,19 @@ h6 {
   background-color: var(--accent-color);
   right: -400px;
   left: 0; }
+
+.bg-right-accent {
+  position: relative; }
+  .bg-right-accent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background-color: var(--accent-color);
+    left: auto;
+    display: block;
+    right: 0; }
 
 .overflow-visible {
   overflow: visible !important; }

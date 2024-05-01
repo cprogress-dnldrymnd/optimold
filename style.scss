@@ -87,7 +87,8 @@ h6 {
         }
     }
 }
-#site-header, .swiper-slider-holder {
+#site-header,
+.swiper-slider-holder {
     .octavian-container.octavian-container {
         max-width: 1550px;
         width: 100%;
@@ -120,6 +121,21 @@ h6 {
         background-color: var(--accent-color);
         right: -400px;
         left: 0;
+    }
+}
+
+.bg-right-accent {
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 20%;
+        background-color: var(--accent-color);
+        left: auto;
+        display: block;
+        right: 0;
     }
 }
 
