@@ -44,7 +44,10 @@
                         object-fit: cover;
                     }
                 }
-                
+                .content {
+                    position: relative;
+                }
+
             }
         }
     }

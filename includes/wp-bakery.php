@@ -89,16 +89,18 @@ function action_slider($atts)
                                     <img src="<?= wp_get_attachment_image_url($slider_items_img, 'large')  ?>" alt="">
                                 </div>
 
-                                <div class="heading-box">
-                                    <h2><?= $slider_items_heading ?></h2>
-                                </div>
-                                <div class="description-box">
-                                    <?= wpautop($slider_items_description) ?>
-                                </div>
-                                <div class="button-box">
-                                    <a class="deeper-button button-accent medium" style="" href="<?= $slider_items_button_link ?>">
-                                        <?= $slider_items_button_text ?>
-                                        <span class="hover-effect" style="left: 271.5px; top: 24.7969px;"></span></a>
+                                <div class="content">
+                                    <div class="heading-box">
+                                        <h2><?= $slider_items_heading ?></h2>
+                                    </div>
+                                    <div class="description-box">
+                                        <?= wpautop($slider_items_description) ?>
+                                    </div>
+                                    <div class="button-box">
+                                        <a class="deeper-button button-accent medium" style="" href="<?= $slider_items_button_link ?>">
+                                            <?= $slider_items_button_text ?>
+                                            <span class="hover-effect" style="left: 271.5px; top: 24.7969px;"></span></a>
+                                    </div>
                                 </div>
                             </div>
                         <?php } ?>
