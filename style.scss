@@ -98,7 +98,6 @@ h6 {
     &:before {
         content: "";
         position: absolute;
-        left: 0;
         top: 0;
         bottom: 0;
     }
@@ -111,11 +110,13 @@ h6 {
     &:before {
         background-color: var(--accent-color);
         left: -300px;
+        right: 0;
     }
 }
 .bg-dark-accent {
     &:before {
         background-color: var(--accent-color);
         right: -300px;
+        left: 0;
     }
 }

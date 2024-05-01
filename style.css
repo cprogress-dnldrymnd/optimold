@@ -81,7 +81,6 @@ h6 {
   .bg-dark-accent:before {
     content: "";
     position: absolute;
-    left: 0;
     top: 0;
     bottom: 0; }
   .bg-dark-left .vc_column-inner,
@@ -90,10 +89,12 @@ h6 {
 
 .bg-dark-left:before {
   background-color: var(--accent-color);
-  left: -300px; }
+  left: -300px;
+  right: 0; }
 
 .bg-dark-accent:before {
   background-color: var(--accent-color);
-  right: -300px; }
+  right: -300px;
+  left: 0; }
 
 /*# sourceMappingURL=style.css.map */
