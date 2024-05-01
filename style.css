@@ -19,7 +19,7 @@ h6 {
 
 :root {
   --text-color: #6f7682;
-  --accent-color: #F56123;
+  --accent-color: #f56123;
   --dark-color: #222730;
   --white-color: #fff; }
 
@@ -71,7 +71,7 @@ h6 {
         font-size: 24px;
         color: var(--text-color); }
 
-.octavian-container.octavian-container {
+#site-header .octavian-container.octavian-container, .swiper-slider-holder .octavian-container.octavian-container {
   max-width: 1550px;
   width: 100%; }
 

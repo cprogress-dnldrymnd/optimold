@@ -19,7 +19,7 @@ h6 {
 }
 :root {
     --text-color: #6f7682;
-    --accent-color: #F56123;
+    --accent-color: #f56123;
     --dark-color: #222730;
     --white-color: #fff;
 }
@@ -87,10 +87,11 @@ h6 {
         }
     }
 }
-
-.octavian-container.octavian-container {
-    max-width: 1550px;
-    width: 100%;
+#site-header, .swiper-slider-holder {
+    .octavian-container.octavian-container {
+        max-width: 1550px;
+        width: 100%;
+    }
 }
 
 .bg-dark-left,
@@ -131,7 +132,7 @@ h6 {
 }
 
 .white-text {
-    *  {
+    * {
         color: var(--white-color) !important;
     }
 }
