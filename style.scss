@@ -169,3 +169,15 @@ h6 {
     width: 100%;
     text-align: center;
 }
+.button-accent {
+    border: 2px solid var(--accent-color);
+}
+.deeper-gridbox.no-borders .grid-row {
+    display: flex !important;
+    flex-wrap: wrap;
+    .grid-item {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}
