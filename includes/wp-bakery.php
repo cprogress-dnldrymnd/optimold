@@ -107,9 +107,24 @@ function action_slider($atts)
                             </div>
                         <?php } ?>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
+
+        <script>
+            var swiperSlider = new Swiper(".swiperSlider", {
+                loop: false,
+                spaceBetween: 0,
+                slidesPerView: 1,
+                autoplay: false,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                },
+
+            });
+        </script>
     <?php } ?>
 
 <?php
