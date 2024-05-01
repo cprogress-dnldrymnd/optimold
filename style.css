@@ -150,10 +150,10 @@ h6 {
 .form-holder {
   display: flex;
   flex-wrap: wrap; }
-  .form-holder .form-inner .form-inner {
+  .form-holder .form-inner {
     flex: 0 0 100%;
     max-width: 100%; }
-    .form-holder .form-inner .form-inner.form-inner-half {
+    .form-holder .form-inner.form-inner-half {
       flex: 0 0 50%;
       max-width: 50%; }
 
