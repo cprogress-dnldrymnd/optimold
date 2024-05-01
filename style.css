@@ -74,20 +74,23 @@ h6 {
   max-width: 1550px;
   width: 100%; }
 
-.bg-dark-left:before,
-.bg-dark-accent:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0; }
-.bg-dark-left .vc_column-inner,
-.bg-dark-accent .vc_column-inner {
+.bg-dark-left,
+.bg-dark-accent {
   position: relative; }
+  .bg-dark-left:before,
+  .bg-dark-accent:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0; }
+  .bg-dark-left .vc_column-inner,
+  .bg-dark-accent .vc_column-inner {
+    position: relative; }
 
 .bg-dark-left:before {
   background-color: var(--accent-color);
-  right: -300px; }
+  left: -300px; }
 
 .bg-dark-accent:before {
   background-color: var(--accent-color);
