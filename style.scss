@@ -134,7 +134,7 @@ h6 {
         width: 20%;
         background-color: var(--accent-color);
         left: auto;
-        display: block;
+        display: block !important;
         right: 0;
     }
 }
