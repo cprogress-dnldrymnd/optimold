@@ -154,12 +154,17 @@ h6 {
 
 .form-holder {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 30px; }
   .form-holder .form-inner {
     flex: 0 0 100%;
     max-width: 100%; }
+    .form-holder .form-inner input:placeholder {
+      color: var(--white-color) !important; }
     .form-holder .form-inner.form-inner-half {
       flex: 0 0 50%;
       max-width: 50%; }
+    .form-holder .form-inner .wpcf7-submit {
+      background-color: var(--dark-color); }
 
 /*# sourceMappingURL=style.css.map */
