@@ -41,7 +41,7 @@
             width: 100%;
             .swiper-slide {
                 position: relative;
-                min-height: 100vh;
+                min-height: calc(100vh - 111px);
                 display: flex;
                 align-items: center;
                 .bg-image {
