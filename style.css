@@ -110,4 +110,8 @@ h6 {
 .mb-30 {
   margin-bottom: 30px !important; }
 
+.octavian-container.octavian-container {
+  max-width: 1170px;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
