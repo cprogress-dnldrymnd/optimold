@@ -8,12 +8,19 @@
 body {
   line-height: 1.2; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2;
   margin-bottom: 30px; }
 
 :root {
-  --text-color: #6F7682; }
+  --text-color: #6f7682;
+  --accent-color: #F56123;
+  --dark-color: #222730; }
 
 .header-style-2.header-style-2 #site-header {
   position: static; }
@@ -66,5 +73,24 @@ h1, h2, h3, h4, h5, h6 {
 .octavian-container.octavian-container {
   max-width: 1550px;
   width: 100%; }
+
+.bg-dark-left:before,
+.bg-dark-accent:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+.bg-dark-left .vc_column-inner,
+.bg-dark-accent .vc_column-inner {
+  position: relative; }
+
+.bg-dark-left:before {
+  background-color: var(--accent-color);
+  right: -300px; }
+
+.bg-dark-accent:before {
+  background-color: var(--accent-color);
+  right: -300px; }
 
 /*# sourceMappingURL=style.css.map */
