@@ -36,6 +36,8 @@
       height: 100%;
       object-fit: cover; }
   .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content {
-    position: relative; }
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 300px; }
 
 /*# sourceMappingURL=style.css.map */
