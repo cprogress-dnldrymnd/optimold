@@ -88,7 +88,7 @@ h6 {
     position: relative; }
 
 .bg-dark-left:before {
-  background-color: var(--accent-color);
+  background-color: var(--dark-color);
   left: -300px;
   right: 0; }
 
