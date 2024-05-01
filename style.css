@@ -174,7 +174,7 @@ h6 {
 
 .group-content-box.hover-effect-1 .vc_column_container:hover {
   color: var(--white-color); }
-  .group-content-box.hover-effect-1 .vc_column_container:hover h2 {
+  .group-content-box.hover-effect-1 .vc_column_container:hover h3 {
     color: var(--white-color); }
   .group-content-box.hover-effect-1 .vc_column_container:hover img {
     filter: brightness(0) invert(1); }
