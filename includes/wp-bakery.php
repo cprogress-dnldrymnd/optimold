@@ -88,24 +88,18 @@ function action_slider($atts)
                                 <div class="bg-image">
                                     <img src="<?= wp_get_attachment_image_url($slider_items_img, 'large')  ?>" alt="">
                                 </div>
-                                <?php foreach ($items as $item) { ?>
-                                    <?php
-                                    $slider_items_img = $item['slider_items_img'];
-                                    $slider_items_heading = $item['slider_items_heading'];
-                                    $slider_items_description = $item['slider_items_description'];
-                                    ?>
-                                    <div class="heading-box">
-                                        <h2><?= $slider_items_heading ?></h2>
-                                    </div>
-                                    <div class="description-box">
-                                        <?= wpautop($slider_items_description) ?>
-                                    </div>
-                                    <div class="button-box">
-                                        <a class="deeper-button button-accent medium" style="" href="<?= $slider_items_button_link ?>">
-                                            <?= $slider_items_button_text ?>
-                                            <span class="hover-effect" style="left: 271.5px; top: 24.7969px;"></span></a>
-                                    </div>
-                                <?php } ?>
+
+                                <div class="heading-box">
+                                    <h2><?= $slider_items_heading ?></h2>
+                                </div>
+                                <div class="description-box">
+                                    <?= wpautop($slider_items_description) ?>
+                                </div>
+                                <div class="button-box">
+                                    <a class="deeper-button button-accent medium" style="" href="<?= $slider_items_button_link ?>">
+                                        <?= $slider_items_button_text ?>
+                                        <span class="hover-effect" style="left: 271.5px; top: 24.7969px;"></span></a>
+                                </div>
                             </div>
                         <?php } ?>
                     </div>
