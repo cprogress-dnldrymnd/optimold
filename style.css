@@ -20,7 +20,8 @@ h6 {
 :root {
   --text-color: #6f7682;
   --accent-color: #F56123;
-  --dark-color: #222730; }
+  --dark-color: #222730;
+  --white-color: #fff; }
 
 .header-style-2.header-style-2 #site-header {
   position: static; }
@@ -102,5 +103,11 @@ h6 {
 
 .bring-to-front {
   z-index: 1 !important; }
+
+.white-text * {
+  color: var(--white-color) !important; }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
 
 /*# sourceMappingURL=style.css.map */
