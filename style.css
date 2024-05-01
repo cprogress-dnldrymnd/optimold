@@ -100,4 +100,7 @@ h6 {
 .overflow-visible {
   overflow: visible !important; }
 
+.bring-to-front {
+  z-index: 1 !important; }
+
 /*# sourceMappingURL=style.css.map */
