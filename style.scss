@@ -99,7 +99,7 @@ h6 {
         content: "";
         position: absolute;
         top: 0;
-        bottom: 0;
+        bottom: -300px;
     }
     .vc_column-inner {
         position: relative;
@@ -119,4 +119,8 @@ h6 {
         right: -300px;
         left: 0;
     }
+}
+
+.overflow-visible {
+    overflow: visible !important;
 }
