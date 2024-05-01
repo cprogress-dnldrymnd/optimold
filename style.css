@@ -39,7 +39,8 @@
       .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image img {
         width: 70%;
         height: 100%;
-        object-fit: cover; }
+        object-fit: cover;
+        border-radius: 15 0 0 15px; }
     .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content {
       position: relative;
       padding-top: 100px;
