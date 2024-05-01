@@ -15,16 +15,16 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --text-color: #6F7682; }
 
-.header-style-2 #site-header {
+.header-style-2.header-style-2 #site-header {
   position: static; }
 
-.header-style-2 #main-nav > ul > li > a > span {
+.header-style-2.header-style-2 #main-nav > ul > li > a > span {
   color: #393e46; }
 
 #main-nav > ul > li > a {
   line-height: 110px; }
 
-.header-button a {
+.header-button.header-button.header-button a {
   background-color: #f56123;
   color: #fff; }
 
@@ -47,10 +47,10 @@ h1, h2, h3, h4, h5, h6 {
       right: 0;
       text-align: right; }
       .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image img {
-        width: 70%;
+        width: 65%;
         height: 100%;
         object-fit: cover;
-        border-radius: 15 0 0 15px; }
+        border-radius: 15px 0 0 15px; }
     .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content {
       position: relative;
       padding-top: 100px;
