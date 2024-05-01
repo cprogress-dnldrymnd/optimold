@@ -23,7 +23,8 @@
   height: 110px; }
 
 .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide {
-  position: relative; }
+  position: relative;
+  min-height: 100vh; }
   .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image {
     position: absolute;
     left: 0;
@@ -37,7 +38,7 @@
       object-fit: cover; }
   .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content {
     position: relative;
-    padding-top: 300px;
-    padding-bottom: 300px; }
+    padding-top: 100px;
+    padding-bottom: 100px; }
 
 /*# sourceMappingURL=style.css.map */
