@@ -215,3 +215,11 @@ h6 {
         }
     }
 }
+
+.group-content-box.hover-effect-1 .vc_column_container:first-child {
+    &:not(:hover) {
+        .deeper-content-box .inner:after {
+            height: 0;
+        }
+    }
+}
