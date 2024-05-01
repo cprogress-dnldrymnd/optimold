@@ -22,26 +22,29 @@
 .site-header-inner .wrap-inner {
   height: 110px; }
 
-.swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center; }
-  .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    text-align: right; }
-    .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image img {
-      width: 70%;
-      height: 100%;
-      object-fit: cover; }
-  .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content {
+.swiper-slider-holder .swiper-slider-inner .swiperSlider {
+  width: 100%; }
+  .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide {
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 100px; }
+    min-height: 100vh;
+    display: flex;
+    align-items: center; }
+    .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      text-align: right; }
+      .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .bg-image img {
+        width: 70%;
+        height: 100%;
+        object-fit: cover; }
+    .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content {
+      position: relative;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      max-width: 850px; }
 
 .octavian-container.octavian-container {
   max-width: 1550px;
