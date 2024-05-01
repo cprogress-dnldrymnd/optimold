@@ -170,6 +170,9 @@ h6 {
 }
 .button-accent {
     border: 2px solid var(--accent-color);
+    &:hover {
+        border-color: #393e46 !important;
+    }
 }
 .deeper-gridbox.deeper-gridbox .grid-row {
     display: flex !important;
