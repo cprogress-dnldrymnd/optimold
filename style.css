@@ -134,9 +134,9 @@ h6 {
   padding: 15px 3vw !important;
   text-align: center; }
 
-.button-accent {
-  padding-top: 16px;
-  padding-bottom: 16px; }
+.button-accent.button-accent {
+  padding-top: 17px !important;
+  padding-bottom: 17px !important; }
 
 .deeper-gridbox.deeper-gridbox .grid-row {
   display: flex !important;
