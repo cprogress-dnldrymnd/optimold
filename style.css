@@ -90,12 +90,12 @@ h6 {
 
 .bg-dark-left:before {
   background-color: var(--dark-color);
-  left: -300px;
+  left: -400px;
   right: 0; }
 
 .bg-dark-accent:before {
   background-color: var(--accent-color);
-  right: -300px;
+  right: -400px;
   left: 0; }
 
 .overflow-visible {
