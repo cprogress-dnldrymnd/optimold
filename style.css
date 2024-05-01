@@ -5,6 +5,15 @@
  * Description: Responsive WordPress Theme Tailored for Creative Websites
  * Author: Ninzio
  **/
+body {
+  line-height: 1.2; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2; }
+
+:root {
+  --text-color: #6F7682; }
+
 .header-style-2 #site-header {
   position: static; }
 
@@ -49,6 +58,9 @@
       @media (min-width: 1199px) {
         .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content .heading-box h2 {
           font-size: 60px; } }
+      .swiper-slider-holder .swiper-slider-inner .swiperSlider .swiper-slide .content .description-box {
+        font-size: 24px;
+        color: var(--text-color); }
 
 .octavian-container.octavian-container {
   max-width: 1550px;
