@@ -174,7 +174,8 @@ h6 {
 .deeper-gridbox.deeper-gridbox .grid-row {
     display: flex !important;
     flex-wrap: wrap;
-    &:before, &:after {
+    &:before,
+    &:after {
         content: none !important;
     }
     .grid-item {
@@ -191,15 +192,17 @@ h6 {
     }
 }
 
-.form-holder {
+.form-holder.form-holder.form-holder {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
     .form-inner {
         flex: 0 0 100%;
         max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
         input {
-            &:placeholder {
+            &::placeholder {
                 color: var(--white-color) !important;
             }
         }
