@@ -162,7 +162,6 @@ h6 {
     width: 100%;
 }
 
-
 .deeper-button.medium {
     padding: 15px !important;
     max-width: 270px;
@@ -179,5 +178,10 @@ h6 {
         &:not(:last-child) {
             margin-right: 1rem;
         }
+    }
+}
+.footer-grid.gutter-30 > .col {
+    @media (min-width: 768px) {
+        width: 33.3333333%;
     }
 }

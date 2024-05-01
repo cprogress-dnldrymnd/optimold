@@ -143,4 +143,8 @@ h6 {
   .deeper-gridbox.deeper-gridbox .grid-row .grid-item:not(:last-child) {
     margin-right: 1rem; }
 
+@media (min-width: 768px) {
+  .footer-grid.gutter-30 > .col {
+    width: 33.3333333%; } }
+
 /*# sourceMappingURL=style.css.map */
