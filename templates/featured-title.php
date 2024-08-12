@@ -101,6 +101,13 @@ if (is_singular('post')) {
                 </div>
             <?php endif; ?>
 
+            <?php if (is_single()) : ?>
+                <div class="the-date">
+                    <?php the_date() ?>
+                </div>
+            <?php endif; ?>
+            
+
         </div>
     </div>
 </div><!-- /#featured-title -->

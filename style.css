@@ -233,4 +233,7 @@ p:last-child {
 .deeper-news-box .texts .meta-wrap {
   display: none; }
 
+.is-single-post #featured-title .inner-wrap.inner-wrap.inner-wrap {
+  padding-bottom: 0; }
+
 /*# sourceMappingURL=style.css.map */

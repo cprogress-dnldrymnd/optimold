@@ -312,3 +312,9 @@ p {
         }
     }
 }
+
+.is-single-post {
+    #featured-title .inner-wrap.inner-wrap.inner-wrap {
+        padding-bottom: 0;
+    }
+}
