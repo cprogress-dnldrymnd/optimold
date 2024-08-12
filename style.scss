@@ -21,8 +21,8 @@ h6 {
     --text-color: #6f7682;
     --accent-color: #f56123;
     --dark-color: #222730;
-    --primary-color: #393E46;
-    --secondary-color: #999EA6;
+    --primary-color: #393e46;
+    --secondary-color: #999ea6;
     --white-color: #fff;
 }
 .header-style-2.header-style-2 #site-header {
@@ -251,10 +251,10 @@ p {
         padding-top: 100px;
         padding-bottom: 150px;
         #breadcrumbs {
-            font-size: 18px;
             .breadcrumb-trail {
                 display: flex;
                 align-items: center;
+                font-size: 18px;
             }
             a {
                 color: var(--dark-color);
@@ -279,7 +279,7 @@ p {
     .main-title {
         color: var(--primary-color);
     }
-   
+
     .the-excerpt {
         font-size: 18px;
         font-weight: 300;
