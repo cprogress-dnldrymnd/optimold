@@ -235,5 +235,10 @@ p:last-child {
 
 .is-single-post #featured-title .inner-wrap.inner-wrap.inner-wrap {
   padding-bottom: 0; }
+.is-single-post .the-date {
+  color: var(--secondary-color);
+  font-size: 16px; }
+.is-single-post #main-content {
+  padding-top: 60px; }
 
 /*# sourceMappingURL=style.css.map */
