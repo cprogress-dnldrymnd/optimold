@@ -323,5 +323,8 @@ p {
     }
     #main-content {
         padding-top: 60px;
+        .post-meta-content-inner {
+            display: none;
+        }
     }
 }

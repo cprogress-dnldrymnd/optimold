@@ -240,5 +240,7 @@ p:last-child {
   font-size: 16px; }
 .is-single-post #main-content {
   padding-top: 60px; }
+  .is-single-post #main-content .post-meta-content-inner {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */
