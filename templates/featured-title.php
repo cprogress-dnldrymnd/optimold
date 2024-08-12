@@ -98,7 +98,7 @@ if (is_singular('product')) {
 
             <?php if (is_single()) : ?>
                 <div class="the-date">
-                    <?php the_date() ?>
+                    <?= get_the_date() ?>
                 </div>
             <?php endif; ?>
 
