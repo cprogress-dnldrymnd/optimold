@@ -95,7 +95,7 @@ if (is_singular('post')) {
                 </div>
             <?php endif; ?>
 
-            <?php if (get_the_excerpt()) : ?>
+            <?php if (get_the_excerpt() && is_page()) : ?>
                 <div class="the-excerpt">
                     <?php the_excerpt() ?>
                 </div>
