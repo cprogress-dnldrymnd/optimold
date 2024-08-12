@@ -68,9 +68,6 @@ if (is_singular('product')) {
         $title = get_the_title();
     }
 }
-
-// For single post
-$title = get_the_title();
 ?>
 
 <div id="featured-title" class="<?php echo esc_attr($cls); ?>" style="<?php echo octavian_featured_title_bg(); ?>">
