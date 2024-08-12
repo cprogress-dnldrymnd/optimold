@@ -84,7 +84,7 @@ if ( is_singular( 'post' ) ) {
                 <div id="breadcrumbs">
                     <div class="breadcrumbs-inner">
                         <div class="breadcrumb-trail">
-                            <?php octavian_breadcrumbs(); ?>
+                            <?php octavian_breadcrumbs(); ?> xxx
                         </div>
                     </div>
                 </div>
