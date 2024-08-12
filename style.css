@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Theme Name: Octavian Child
  * Template: optimold
@@ -224,7 +225,7 @@ p:last-child {
     color: #fff;
     padding: 10px 15px;
     border-radius: 50px;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-weight: bold;
     position: absolute;
     bottom: 12px;
@@ -242,5 +243,27 @@ p:last-child {
   padding-top: 60px; }
   .is-single-post #main-content .post-meta-content-inner {
     display: none; }
+
+blockquote {
+  padding-left: 60px; }
+  blockquote p {
+    font-weight: bold;
+    color: var(--primary-color);
+    line-height: 1.2; }
+    @media (min-width: 1200) {
+      blockquote p {
+        font-size: 60px; } }
+  blockquote:before {
+    background-size: cover;
+    background-image: none;
+    content: "“";
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: var(--accent-color); }
+  blockquote cite {
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text-color); }
 
 /*# sourceMappingURL=style.css.map */
