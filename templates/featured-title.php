@@ -70,10 +70,8 @@ if (is_singular('product')) {
 }
 
 // For single post
-if (is_singular('post')) {
-    $title = octavian_get_mod('blog_single_featured_title', 'Our Blog');
-    if (!$title) $title = get_the_title();
-} ?>
+$title = get_the_title();
+?>
 
 <div id="featured-title" class="<?php echo esc_attr($cls); ?>" style="<?php echo octavian_featured_title_bg(); ?>">
     <div class="octavian-container clearfix">
@@ -106,7 +104,7 @@ if (is_singular('post')) {
                     <?php the_date() ?>
                 </div>
             <?php endif; ?>
-            
+
 
         </div>
     </div>
