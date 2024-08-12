@@ -95,6 +95,14 @@ if (is_singular('post')) {
                 </div>
             <?php endif; ?>
 
+            <?php if (get_the_excerpt()) : ?>
+                <div class="title-group">
+                    <h1 class="main-title">
+                        <?php the_excerpt() ?>
+                    </h1>
+                </div>
+            <?php endif; ?>
+
         </div>
     </div>
 </div><!-- /#featured-title -->
