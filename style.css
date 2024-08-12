@@ -217,4 +217,20 @@ p:last-child {
     font-weight: 300;
     max-width: 600px; }
 
+.deeper-news-box .thumb {
+  position: relative; }
+  .deeper-news-box .thumb .meta-wrap a {
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    position: absolute;
+    bottom: 12px;
+    line-height: 1.2;
+    left: 12px; }
+.deeper-news-box .texts .meta-wrap {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */
