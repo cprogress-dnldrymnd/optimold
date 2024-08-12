@@ -21,6 +21,8 @@ h6 {
     --text-color: #6f7682;
     --accent-color: #f56123;
     --dark-color: #222730;
+    --primary-color: #393E46;
+    --secondary-color: #999EA6;
     --white-color: #fff;
 }
 .header-style-2.header-style-2 #site-header {
@@ -28,7 +30,7 @@ h6 {
 }
 
 .header-style-2.header-style-2 #main-nav > ul > li > a > span {
-    color: #393e46;
+    color: var(--primary-color);
 }
 #main-nav > ul > li > a {
     line-height: 110px;
@@ -169,8 +171,8 @@ h6 {
     text-align: center;
 }
 .button-accent.button-accent {
-   padding-top: 17px !important;
-   padding-bottom: 17px !important;
+    padding-top: 17px !important;
+    padding-bottom: 17px !important;
 }
 .deeper-gridbox.deeper-gridbox .grid-row {
     display: flex !important;
@@ -227,7 +229,6 @@ h6 {
     }
 }
 
-
 .group-content-box.hover-effect-1 .vc_column_container {
     &:hover {
         color: var(--white-color);
@@ -236,6 +237,25 @@ h6 {
         }
         img {
             filter: brightness(0) invert(1);
+        }
+    }
+}
+
+#featured-title {
+    background-color: transparent;
+    .inner-wrap {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .main-title {
+        color: var(--primary-color);
+    }
+    #breadcrumbs {
+        a {
+            color: var(--dark-color);
+        }
+        span {
+            color: var(--secondary-color);
         }
     }
 }
