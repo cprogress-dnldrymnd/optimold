@@ -313,5 +313,7 @@ blockquote {
     color: var(--white-color);
     border-radius: 5px;
     display: inline-block; }
+    .prev-next-blog a:hover {
+      background-color: var(--secondary-color); }
 
 /*# sourceMappingURL=style.css.map */

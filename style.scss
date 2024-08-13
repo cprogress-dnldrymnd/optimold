@@ -411,5 +411,8 @@ blockquote {
         color: var(--white-color);
         border-radius: 5px;
         display: inline-block;
+        &:hover {
+            background-color: var(--secondary-color);
+        }
     }
 }
