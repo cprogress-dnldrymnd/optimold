@@ -358,7 +358,37 @@ blockquote {
     }
 }
 
-.related-news {
+.related-news.related-news {
     margin-top: 0;
     margin-bottom: 150px;
+    h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .thumb {
+        position: relative;
+        padding: 35%;
+        border-radius: 15px;
+        overflow: hidden;
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .the-excerpt {
+        margin-bottom: 12px;
+        * {
+            font-weight: 300;
+        }
+    }
+    .date-box  {
+        font-size: 16px;
+        color: var(--secondary-color);
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
 }

@@ -269,8 +269,32 @@ blockquote {
     font-size: 18px;
     color: var(--text-color); }
 
-.related-news {
+.related-news.related-news {
   margin-top: 0;
   margin-bottom: 150px; }
+  .related-news.related-news h3 {
+    font-size: 22px;
+    margin-bottom: 12px; }
+  .related-news.related-news .thumb {
+    position: relative;
+    padding: 35%;
+    border-radius: 15px;
+    overflow: hidden; }
+    .related-news.related-news .thumb img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .related-news.related-news .the-excerpt {
+    margin-bottom: 12px; }
+    .related-news.related-news .the-excerpt * {
+      font-weight: 300; }
+  .related-news.related-news .date-box {
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+    margin-top: 12px; }
 
 /*# sourceMappingURL=style.css.map */
