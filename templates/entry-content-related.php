@@ -26,9 +26,10 @@ $query_args = array(
 $query = new WP_Query($query_args);
 
 if ($query->have_posts()) : ?>
-    <div class="octavian-container">
 
-        <div class="prev-next-blog">
+    <div class="prev-next-blog">
+        <div class="octavian-container">
+
             <div>
                 <?php if (get_previous_post_link()) { ?>
                     <a href="<?= get_permalink(get_adjacent_post(false, '', true)->ID); ?>">Previous Blog</a>
@@ -39,8 +40,11 @@ if ($query->have_posts()) : ?>
                     <a href="<?= get_permalink(get_adjacent_post(false, '', false)->ID) ?>">Next Blog</a>
                 <?php } ?>
             </div>
+
         </div>
-        <div class="related-news">
+    </div>
+    <div class="related-news">
+        <div class="octavian-container">
             <h3 class="related-title"><?php echo esc_html(octavian_get_mod('octavian_blog_single_related_header')); ?></h3>
             <div class="swiper-holder related-post">
                 <div class="swiper swiper-related">
