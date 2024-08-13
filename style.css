@@ -269,4 +269,8 @@ blockquote {
     font-size: 18px;
     color: var(--text-color); }
 
+.related-news {
+  margin-top: 0;
+  margin-bottom: 150px; }
+
 /*# sourceMappingURL=style.css.map */
