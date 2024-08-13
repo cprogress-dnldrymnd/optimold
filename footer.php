@@ -1,7 +1,14 @@
 </div><!-- /.main-content -->
 <?php
 if (is_single()) {
-    get_template_part('templates/entry-content-related');
+?>
+    <div class="octavian-container">
+        <?php
+        get_template_part('templates/entry-content-related');
+        ?>
+    </div>
+<?php
+
 }
 ?>
 <?php get_template_part('templates/footer-widgets'); ?>
