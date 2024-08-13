@@ -145,7 +145,7 @@ $Services->supports = array('title', 'revisions', 'editor', 'thumbnail', 'excerp
 $Services->show_in_rest = true;
 $Services->rewrite = array(
     'with_front' => false,
-    'slug' => 'Services'
+    'slug' => 'services'
 );
 
 
