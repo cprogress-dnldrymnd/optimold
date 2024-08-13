@@ -57,9 +57,9 @@ if ($query->have_posts()) : ?>
                         </div>
                     <?php endwhile; ?>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div><!-- /.post-related -->
     </div><!-- /.related-news -->
 
