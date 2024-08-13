@@ -59,64 +59,6 @@ if (function_exists('vc_map')) {
             )
         );
     }
-
-    function vc_map_slider()
-    {
-        vc_map(
-            array(
-                "name" => __("Slider", "my-text-domain"), // Element name
-                "base" => "slider", // Element shortcode
-                "class" => "box-repeater",
-                "category" => "Optimold",
-                'params' => array(
-                    array(
-                        'type' => 'param_group',
-                        'param_name' => 'slider_items',
-                        'params' => array(
-                            array(
-                                "type" => "attach_image",
-                                "holder" => "img",
-                                "heading" => __("Image", "my-text-domain"),
-                                "param_name" => "slider_items_img",
-                                "value" => __("", "my-text-domain"),
-                            ),
-                            array(
-                                "type" => "textfield",
-                                "holder" => "div",
-                                "admin_label" => true,
-                                "heading" => __("Heading", "my-text-domain"),
-                                "param_name" => "slider_items_heading",
-                                "value" => __("", "my-text-domain"),
-                            ),
-                            array(
-                                "type" => "textarea",
-                                "admin_label" => false,
-                                "heading" => __("Description", "my-text-domain"),
-                                "param_name" => "slider_items_description",
-                                "value" => __("", "my-text-domain"),
-                            ),
-                            array(
-                                "type" => "textfield",
-                                "holder" => "div",
-                                "admin_label" => true,
-                                "heading" => __("Button Text", "my-text-domain"),
-                                "param_name" => "slider_items_button_text",
-                                "value" => __("", "my-text-domain"),
-                            ),
-                            array(
-                                "type" => "textfield",
-                                "holder" => "div",
-                                "admin_label" => true,
-                                "heading" => __("Button Link", "my-text-domain"),
-                                "param_name" => "slider_items_button_link",
-                                "value" => __("", "my-text-domain"),
-                            ),
-                        )
-                    ),
-                )
-            )
-        );
-    }
 }
 
 function action_slider($atts)
@@ -189,3 +131,20 @@ function action_slider($atts)
     return ob_get_clean();
 }
 add_shortcode('slider', 'action_slider');
+
+
+
+//team_slider
+if (function_exists('vc_map')) {
+    add_action('vc_before_init', 'vc_map_team_slider');
+    function vc_map_team_slider()
+    {
+        vc_map(
+            array(
+                "name" => __("Team Slider", "my-text-domain"), // Element name
+                "base" => "team_slider", // Element shortcode
+                "category" => "Optimold",
+            )
+        );
+    }
+}
