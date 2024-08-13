@@ -16,7 +16,7 @@ add_post_type_support('page', 'excerpt');
 
 function action_wp_footer()
 {
-
+?>
    <script>
       var swiperSlider = new Swiper(".swiper-related", {
          loop: true,
