@@ -231,6 +231,9 @@ p:last-child {
     bottom: 12px;
     line-height: 1.2;
     left: 12px; }
+    .deeper-news-box .thumb .meta-wrap a:hover {
+      background-color: var(--secondary-color);
+      color: var(--white-color); }
 .deeper-news-box .texts .meta-wrap {
   display: none; }
 

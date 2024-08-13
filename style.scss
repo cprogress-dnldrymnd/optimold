@@ -302,6 +302,10 @@ p {
                 bottom: 12px;
                 line-height: 1.2;
                 left: 12px;
+                &:hover {
+                    background-color: var(--secondary-color);
+                    color: var(--white-color)
+                }
             }
         }
     }
