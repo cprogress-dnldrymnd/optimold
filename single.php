@@ -17,9 +17,9 @@
         </div><!-- /#site-content -->
     <?php endwhile;; ?>
     <?php get_sidebar(); ?>
-    <?php
-    get_template_part('templates/entry-content-related');
-    ?>
-</div><!-- /#content-wrap -->
 
+</div><!-- /#content-wrap -->
+<?php
+get_template_part('templates/entry-content-related');
+?>
 <?php get_footer(); ?>
