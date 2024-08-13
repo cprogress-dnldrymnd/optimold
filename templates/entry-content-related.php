@@ -17,6 +17,7 @@ if (! is_single() || ! octavian_get_mod('octavian_blog_single_related', false))
 
 
 $query_args = array(
+    'category__in' => wp_get_post_categories(get_the_ID()),
     'post__not_in' => array(get_the_ID()),
     'posts_per_page' => 3
 );
@@ -29,6 +30,7 @@ if ($query->have_posts()) : ?>
         <h3 class="related-title"><?php echo esc_html(octavian_get_mod('octavian_blog_single_related_header')); ?></h3>
 
         <div class="related-post">
+
             <?php while ($query->have_posts()) : $query->the_post(); ?>
                 <div class="post-item">
                     <div class="inner">
