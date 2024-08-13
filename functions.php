@@ -19,7 +19,7 @@ function action_wp_footer()
 ?>
    <script>
       var swiperSlider = new Swiper(".swiper-related", {
-         loop: true,
+         loop: false,
          spaceBetween: 30,
          slidesPerView: 3,
          autoplay: false,
