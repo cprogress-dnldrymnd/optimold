@@ -361,13 +361,15 @@ blockquote {
 .related-news.related-news {
     margin-top: 0;
     margin-bottom: 150px;
-    border-top: 1px solid #707070;
-    padding-top: 35px;
     padding-right: 50px;
     padding-left: 50px;
     --swiper-navigation-color: #707070;
     --swiper-navigation-sides-offset: -30px;
     --swiper-navigation-size: 30px;
+    .octavian-container {
+        border-top: 1px solid #707070;
+        padding-top: 35px;
+    }
     .swiper {
         h3 {
             font-size: 22px;
