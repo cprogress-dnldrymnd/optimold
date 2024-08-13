@@ -30,32 +30,29 @@ if ($query->have_posts()) : ?>
     <div class="related-news">
         <h3 class="related-title"><?php echo esc_html(octavian_get_mod('octavian_blog_single_related_header')); ?></h3>
 
-        <div class="related-post">
+        <div class="swiper-holder related-post">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <?php while ($query->have_posts()) : $query->the_post(); ?>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <?php
+                                $the_cat = get_the_category();
+                                $thumb = get_the_post_thumbnail(get_the_ID(), 'medium');
 
-            <?php while ($query->have_posts()) : $query->the_post(); ?>
-                <div class="post-item">
-                    <div class="inner">
-                        <?php
-                        $the_cat = get_the_category();
-                        $category_name = $the_cat[0]->cat_name;
-                        $category_link = get_category_link($the_cat[0]->cat_ID);
+                                if ($thumb) echo '<div class="thumb"><a href="' . esc_url(get_permalink()) . '">' . $thumb . '</a></div>';
+                                ?>
 
-                        $size = 'octavian-post-widget';
-                        $thumb = get_the_post_thumbnail(get_the_ID(), $size);
+                                <div class="text">
+                                    <h3><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
-                        if ($thumb) echo '<div class="thumb-wrap"><a href="' . esc_url(get_permalink()) . '">' . $thumb . '</a></div>';
-                        ?>
-
-                        <div class="text-wrap">
-                            <div class="post-categories"><?php echo the_category(', ', get_the_ID()); ?></div>
-
-                            <h3><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
-
-                            <div class="post-date"><?php echo esc_html(human_time_diff(get_the_time('U'), current_time('timestamp'))); ?></div>
-                        </div><!-- .text-wrap -->
-                    </div>
+                                    <div class="post-date"></div>
+                                </div><!-- .text-wrap -->
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
                 </div>
-            <?php endwhile; ?>
+            </div>
         </div><!-- /.post-related -->
     </div><!-- /.related-news -->
 
