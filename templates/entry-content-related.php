@@ -29,7 +29,6 @@ if ($query->have_posts()) : ?>
 
     <div class="related-news">
         <h3 class="related-title"><?php echo esc_html(octavian_get_mod('octavian_blog_single_related_header')); ?></h3>
-
         <div class="swiper-holder related-post">
             <div class="swiper swiper-related">
                 <div class="swiper-wrapper">

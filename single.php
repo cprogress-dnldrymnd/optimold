@@ -19,7 +19,5 @@
     <?php get_sidebar(); ?>
 
 </div><!-- /#content-wrap -->
-<?php
-get_template_part('templates/entry-content-related');
-?>
+
 <?php get_footer(); ?>
