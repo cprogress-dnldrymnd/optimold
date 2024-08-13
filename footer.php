@@ -2,11 +2,10 @@
 <?php
 if (is_single()) {
 ?>
-    <div class="octavian-container">
-        <?php
-        get_template_part('templates/entry-content-related');
-        ?>
-    </div>
+    <?php
+    get_template_part('templates/entry-content-related');
+    ?>
+
 <?php
 
 }
