@@ -10,6 +10,7 @@ function enqueue_parent_styles()
 }
 
 require_once('includes/wp-bakery.php');
+require_once('includes/post-types.php');
 
 
 add_post_type_support('page', 'excerpt');
