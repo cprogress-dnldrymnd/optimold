@@ -42,12 +42,18 @@ if ($query->have_posts()) : ?>
 
                                 if ($thumb) echo '<div class="thumb"><a href="' . esc_url(get_permalink()) . '">' . $thumb . '</a></div>';
                                 ?>
-
-                                <div class="text">
+                                <div class="date-box">
+                                    <div class="post-date"><?= get_the_date() ?></div>
+                                </div>
+                                <div class="title-box">
                                     <h3><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
-
-                                    <div class="post-date"></div>
-                                </div><!-- .text-wrap -->
+                                </div>
+                                <div class="the-excerpt">
+                                    <?php the_excerpt() ?>
+                                </div>
+                                <div class="readmore">
+                                    <a href="?php esc_url(the_permalink()); ?>">Read more</a>
+                                </div>
                             </div>
                         </div>
                     <?php endwhile; ?>
