@@ -17,6 +17,7 @@ if (! is_single() || ! octavian_get_mod('octavian_blog_single_related', false))
 
 
 $query_args = array(
+    'post_type' => 'post',
     'category__in' => wp_get_post_categories(get_the_ID()),
     'post__not_in' => array(get_the_ID()),
     'posts_per_page' => 3
