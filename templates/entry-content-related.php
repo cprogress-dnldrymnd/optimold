@@ -20,7 +20,7 @@ $query_args = array(
     'post_type' => 'post',
     'category__in' => wp_get_post_categories(get_the_ID()),
     'post__not_in' => array(get_the_ID()),
-    'posts_per_page' => 3
+    'posts_per_page' => 10
 );
 
 $query = new WP_Query($query_args);
