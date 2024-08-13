@@ -418,3 +418,24 @@ blockquote {
         }
     }
 }
+
+.four-col-content-boxes {
+    .wpb_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        .deeper-content-box{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            flex: 0 0 auto;
+            width: 25%;
+            @media (max-width: 991px) {
+                width: 50%;
+            }
+        }
+    }
+    
+}
