@@ -25,6 +25,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	
 	<?php
 	get_template_part( 'templates/entry-content-author' );
-	get_template_part( 'templates/entry-content-related' );
 	?>
 </article><!-- /.hentry -->
