@@ -27,13 +27,16 @@ $query = new WP_Query($query_args);
 
 if ($query->have_posts()) : ?>
     <div class="prev-next-blog">
-        <?php if (get_previous_post_link()) { ?>
-            <a href="<?= get_permalink(get_adjacent_post(false, '', true)->ID); ?>">Previous Blog</a>
-        <?php } ?>
-
-        <?php if (get_next_post_link()) { ?>
-            <a href="<?= get_permalink(get_adjacent_post(false, '', false)->ID) ?>">Next Blog</a>
-        <?php } ?>
+        <div>
+            <?php if (get_previous_post_link()) { ?>
+                <a href="<?= get_permalink(get_adjacent_post(false, '', true)->ID); ?>">Previous Blog</a>
+            <?php } ?>
+        </div>
+        <div>
+            <?php if (get_next_post_link()) { ?>
+                <a href="<?= get_permalink(get_adjacent_post(false, '', false)->ID) ?>">Next Blog</a>
+            <?php } ?>
+        </div>
     </div>
     <div class="related-news">
         <h3 class="related-title"><?php echo esc_html(octavian_get_mod('octavian_blog_single_related_header')); ?></h3>
