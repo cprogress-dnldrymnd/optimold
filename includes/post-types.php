@@ -136,16 +136,3 @@ class newTaxonomy
         return $columns;
     }
 }
-
-$Services = new newPostType();
-$Services->name = 'Services';
-$Services->singular_name = 'Service';
-$Services->icon = 'dashicons-media-document';
-$Services->supports = array('title', 'revisions', 'editor', 'thumbnail', 'excerpt', 'author');
-$Services->show_in_rest = true;
-$Services->rewrite = array(
-    'with_front' => false,
-    'slug' => 'services'
-);
-
-
