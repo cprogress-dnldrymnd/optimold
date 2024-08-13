@@ -271,7 +271,10 @@ blockquote {
 
 .related-news.related-news {
   margin-top: 0;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  --swiper-navigation-color: #707070;
+  --swiper-navigation-sides-offset: -30px;
+  --swiper-navigation-size: 25px; }
   .related-news.related-news .swiper h3 {
     font-size: 22px;
     margin-bottom: 12px; }
