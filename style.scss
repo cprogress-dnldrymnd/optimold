@@ -403,11 +403,13 @@ blockquote {
 .prev-next-blog {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
     a {
         background-color: var(--accent-color);
         padding: 17px 44px;
         line-height: 1;
         color: var(--white-color);
         border-radius: 5px;
+        display: inline-block;
     }
 }
