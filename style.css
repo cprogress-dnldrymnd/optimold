@@ -345,4 +345,8 @@ blockquote {
     .three-col-content-boxes .wpb_wrapper .deeper-content-box {
       width: 50%; } }
 
+.deeper-text > span {
+  margin-bottom: 1rem;
+  display: block; }
+
 /*# sourceMappingURL=style.css.map */

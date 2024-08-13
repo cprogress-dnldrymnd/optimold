@@ -458,3 +458,11 @@ blockquote {
         }
     }
 }
+
+
+.deeper-text {
+    > span {
+        margin-bottom: 1rem;
+        display: block;
+    }
+}
