@@ -318,6 +318,7 @@ blockquote {
     .prev-next-blog a:hover {
       background-color: var(--secondary-color); }
 
+.three-col-content-boxes .wpb_wrapper,
 .four-col-content-boxes .wpb_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -325,13 +326,22 @@ blockquote {
   justify-content: center;
   margin-left: -1rem;
   margin-right: -1rem; }
+  .three-col-content-boxes .wpb_wrapper .deeper-content-box,
   .four-col-content-boxes .wpb_wrapper .deeper-content-box {
     padding-left: 1rem;
     padding-right: 1rem;
-    flex: 0 0 auto;
-    width: 25%; }
-    @media (max-width: 991px) {
-      .four-col-content-boxes .wpb_wrapper .deeper-content-box {
-        width: 50%; } }
+    flex: 0 0 auto; }
+
+.four-col-content-boxes .wpb_wrapper .deeper-content-box {
+  width: 25%; }
+  @media (max-width: 991px) {
+    .four-col-content-boxes .wpb_wrapper .deeper-content-box {
+      width: 50%; } }
+
+.three-col-content-boxes .wpb_wrapper .deeper-content-box {
+  width: 33%; }
+  @media (max-width: 991px) {
+    .three-col-content-boxes .wpb_wrapper .deeper-content-box {
+      width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
