@@ -435,6 +435,8 @@ blockquote {
             padding-right: 1rem;
             flex: 0 0 auto;
             height: 100%;
+            margin-bottom: 2rem !important;
+
             .inner {
                 height: 100%;
             }
@@ -447,7 +449,6 @@ blockquote {
         .deeper-content-box {
             width: 25%;
             height: auto;
-            margin-bottom: 2rem !important;
             @media (max-width: 991px) {
                 width: 50%;
             }
