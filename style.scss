@@ -549,17 +549,34 @@ blockquote {
             background-color: var(--accent-color);
             border-radius: 44px;
             width: 100%;
+           
             .wpcf7 {
+                input[type="text"],
+                input[type="password"],
+                input[type="datetime"],
+                input[type="datetime-local"],
+                input[type="date"],
+                input[type="month"],
+                input[type="time"],
+                input[type="week"],
+                input[type="number"],
+                input[type="email"],
+                input[type="url"],
+                input[type="search"],
+                input[type="tel"],
+                input[type="color"],
+                textarea {
+                    border-color: var(--white-color) !important;
+                    &::placeholder {
+                        color: var(--white-color);
+                    }
+                }
                 padding: 40px;
                 color: var(--white-color);
                 h3 {
                     color: var(--white-color);
                 }
-                input {
-                    &::placeholder {
-                        color: var(--white-color);
-                    }
-                }
+
                 .input-row {
                     display: flex;
                     flex-wrap: wrap;

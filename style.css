@@ -422,9 +422,39 @@ blockquote {
     .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 {
       padding: 40px;
       color: var(--white-color); }
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="text"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="password"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="datetime"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="datetime-local"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="date"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="month"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="time"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="week"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="number"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="email"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="url"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="search"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="tel"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="color"],
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 textarea {
+        border-color: var(--white-color) !important; }
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="text"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="password"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="datetime"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="datetime-local"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="date"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="month"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="time"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="week"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="number"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="email"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="url"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="search"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="tel"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="color"]::placeholder,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 textarea::placeholder {
+          color: var(--white-color); }
       .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 h3 {
-        color: var(--white-color); }
-      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input::placeholder {
         color: var(--white-color); }
       .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 .input-row {
         display: flex;
