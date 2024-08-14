@@ -425,6 +425,10 @@ blockquote {
 .four-col-content-boxes {
     > .vc_column-inner {
         display: flex;
+        align-items: center;
+        &:before, &:after {
+            content: none;
+        }
     }
     .wpb_wrapper {
         display: flex;

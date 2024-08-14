@@ -322,7 +322,12 @@ blockquote {
 
 .three-col-content-boxes > .vc_column-inner,
 .four-col-content-boxes > .vc_column-inner {
-  display: flex; }
+  display: flex;
+  align-items: center; }
+  .three-col-content-boxes > .vc_column-inner:before, .three-col-content-boxes > .vc_column-inner:after,
+  .four-col-content-boxes > .vc_column-inner:before,
+  .four-col-content-boxes > .vc_column-inner:after {
+    content: none; }
 .three-col-content-boxes .wpb_wrapper,
 .four-col-content-boxes .wpb_wrapper {
   display: flex;
