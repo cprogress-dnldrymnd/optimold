@@ -40,6 +40,28 @@ function action_wp_footer()
          },
 
       });
+
+      var swiperSlider = new Swiper(".swiper-teams", {
+         loop: false,
+         spaceBetween: 30,
+         autoplay: false,
+         navigation: {
+            nextEl: ".swiper-button-next-teams",
+            prevEl: ".swiper-button-prev-teams",
+         },
+         breakpoints: {
+            0: {
+               slidesPerView: 1,
+            },
+            576: {
+               slidesPerView: 2,
+            },
+            768: {
+               slidesPerView: 3,
+            },
+         },
+
+      });
    </script>
 <?php
 }

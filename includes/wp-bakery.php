@@ -162,23 +162,27 @@ function action_team_slider()
 
 ?>
     <div class="swiper-teams-holder">
-        <div class="swiper-wrapper">
-            <?php foreach ($teams as $team) { ?>
-                <div class="swiper-slide">
-                    <div class="inner">
-                        <div class="image-box">
-                            <?= get_the_post_thumbnail($team->ID, 'large') ?>
-                        </div>
-                        <div class="content-box">
-                            <div class="job-title">
-                                <?= $team->post_excerpt ?>
+        <div class="swiper swiper-teams">
+            <div class="swiper-wrapper">
+                <?php foreach ($teams as $team) { ?>
+                    <div class="swiper-slide">
+                        <div class="inner">
+                            <div class="image-box">
+                                <?= get_the_post_thumbnail($team->ID, 'large') ?>
                             </div>
-                            <h4><?= $team->post_title ?></h4>
+                            <div class="content-box">
+                                <div class="job-title">
+                                    <?= $team->post_excerpt ?>
+                                </div>
+                                <h4><?= $team->post_title ?></h4>
+                            </div>
                         </div>
                     </div>
-                </div>
-            <?php } ?>
+                <?php } ?>
+            </div>
         </div>
+        <div class="swiper-button-next swiper-button-next-teams"></div>
+        <div class="swiper-button-prev swiper-button-prev-teams"></div>
     </div>
 <?php
 
