@@ -468,6 +468,15 @@ blockquote {
 }
 
 .swiper-teams-holder {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    --swiper-navigation-color: #707070;
+    --swiper-navigation-sides-offset: 0;
+    --swiper-navigation-size: 30px;
     .swiper-slide {
         .inner {
             position: relative;

@@ -350,44 +350,54 @@ blockquote {
   margin-bottom: 1rem;
   display: block; }
 
-.swiper-teams-holder .swiper-slide .inner {
+.swiper-teams-holder {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  overflow: hidden;
-  border-radius: 15px; }
-  .swiper-teams-holder .swiper-slide .inner .image-box {
+  padding-left: 50px;
+  padding-right: 50px;
+  --swiper-navigation-color: #707070;
+  --swiper-navigation-sides-offset: 0;
+  --swiper-navigation-size: 30px; }
+  .swiper-teams-holder .swiper-slide .inner {
     position: relative;
-    padding: 50%; }
-    .swiper-teams-holder .swiper-slide .inner .image-box img {
+    overflow: hidden;
+    border-radius: 15px; }
+    .swiper-teams-holder .swiper-slide .inner .image-box {
+      position: relative;
+      padding: 50%; }
+      .swiper-teams-holder .swiper-slide .inner .image-box img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .swiper-teams-holder .swiper-slide .inner .content-box {
       position: absolute;
-      left: 0;
       top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover; }
-  .swiper-teams-holder .swiper-slide .inner .content-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: end;
-    color: var(--white-color);
-    background: black;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%);
-    opacity: 0;
-    transform: translateY(100px);
-    transition: 300ms; }
-    .swiper-teams-holder .swiper-slide .inner .content-box .job-title {
-      font-weight: 300; }
-    .swiper-teams-holder .swiper-slide .inner .content-box h4 {
-      margin-bottom: 20px;
-      font-size: 22px;
-      color: var(--white-color); }
-  .swiper-teams-holder .swiper-slide .inner:hover .content-box {
-    opacity: 1;
-    transform: translateY(0); }
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: end;
+      color: var(--white-color);
+      background: black;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%);
+      opacity: 0;
+      transform: translateY(100px);
+      transition: 300ms; }
+      .swiper-teams-holder .swiper-slide .inner .content-box .job-title {
+        font-weight: 300; }
+      .swiper-teams-holder .swiper-slide .inner .content-box h4 {
+        margin-bottom: 20px;
+        font-size: 22px;
+        color: var(--white-color); }
+    .swiper-teams-holder .swiper-slide .inner:hover .content-box {
+      opacity: 1;
+      transform: translateY(0); }
 
 /*# sourceMappingURL=style.css.map */
