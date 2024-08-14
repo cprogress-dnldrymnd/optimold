@@ -152,8 +152,36 @@ if (function_exists('vc_map')) {
 
 add_shortcode('team_slider', 'action_team_slider');
 
-function action_team_slider() {
+function action_team_slider()
+{
+    ob_start();
     $teams = get_posts(array(
-
+        'post_type' => 'teams',
+        'numberposts' => -1,
     ));
+
+?>
+    <div class="swiper-teams-holder">
+        <div class="swiper-wrapper">
+            <?php foreach ($teams as $team) { ?>
+                <div class="swiper-slide">
+                    <div class="inner">
+                        <div class="image-box">
+                            <?= get_the_post_thumbnail($team->ID, 'large') ?>
+                        </div>
+                        <div class="content-box">
+                            <div class="job-title">
+                                <?= $team->post_excerpt ?>
+                            </div>
+                            <h4><?= $team->post_title ?></h4>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+<?php
+
+
+    return ob_get_clean();
 }
