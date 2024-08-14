@@ -423,13 +423,6 @@ blockquote {
 }
 .three-col-content-boxes,
 .four-col-content-boxes {
-    > .vc_column-inner {
-        display: flex;
-        align-items: center;
-        &:before, &:after {
-            content: none;
-        }
-    }
     .wpb_wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -453,6 +446,8 @@ blockquote {
     .wpb_wrapper {
         .deeper-content-box {
             width: 25%;
+            height: auto;
+            margin-bottom: 2rem;
             @media (max-width: 991px) {
                 width: 50%;
             }
