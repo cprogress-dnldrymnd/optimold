@@ -156,7 +156,7 @@ function action_team_slider()
 {
     ob_start();
     $teams = get_posts(array(
-        'post_type' => 'teams',
+        'post_type' => 'team',
         'numberposts' => -1,
     ));
 
