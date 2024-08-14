@@ -360,6 +360,10 @@ blockquote {
   --swiper-navigation-color: #707070;
   --swiper-navigation-sides-offset: 0;
   --swiper-navigation-size: 30px; }
+  @media (max-width: 575px) {
+    .swiper-teams-holder {
+      padding-left: 30px;
+      padding-right: 30px; } }
   .swiper-teams-holder .swiper-slide .inner {
     position: relative;
     overflow: hidden;
