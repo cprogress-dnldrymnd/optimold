@@ -549,8 +549,14 @@ blockquote {
             background-color: var(--accent-color);
             border-radius: 44px;
             width: 100%;
-           
+
             .wpcf7 {
+                padding: 40px 40px 40px 0;
+                max-width: 500px;
+                color: var(--white-color);
+                h3 {
+                    color: var(--white-color);
+                }
                 input[type="text"],
                 input[type="password"],
                 input[type="datetime"],
@@ -571,17 +577,16 @@ blockquote {
                         color: var(--white-color);
                     }
                 }
-                padding: 40px;
-                color: var(--white-color);
-                h3 {
-                    color: var(--white-color);
+                .wpcf7-submit {
+                    background-color: var(--dark-color);
+                    padding: 16px;
+                    width: 100%;
                 }
-
                 .input-row {
                     display: flex;
                     flex-wrap: wrap;
-                    margin-left: 1rem;
-                    margin-right: 1rem;
+                    margin-left: -1rem;
+                    margin-right: -1rem;
                     .input-half,
                     .input-full {
                         flex: 0 0 auto;
