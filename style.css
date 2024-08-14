@@ -374,10 +374,20 @@ blockquote {
     flex-direction: column;
     text-align: center;
     justify-content: end;
-    color: var(--white-color); }
+    color: var(--white-color);
+    background: black;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%);
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 300ms; }
+    .swiper-teams-holder .swiper-slide .inner .content-box .job-title {
+      font-weight: 300; }
     .swiper-teams-holder .swiper-slide .inner .content-box h4 {
       margin-bottom: 20px;
       font-size: 22px;
       color: var(--white-color); }
+  .swiper-teams-holder .swiper-slide .inner:hover .content-box {
+    opacity: 1;
+    transform: translateY(0); }
 
 /*# sourceMappingURL=style.css.map */
