@@ -420,7 +420,7 @@ blockquote {
     border-radius: 44px;
     width: 100%; }
     @media (max-width: 991px) {
-      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .vcg_figure {
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpb_single_image {
         display: none; } }
     .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 {
       padding: 40px 40px 40px 0;
