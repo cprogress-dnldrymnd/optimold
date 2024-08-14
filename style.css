@@ -324,15 +324,19 @@ blockquote {
 .four-col-content-boxes .wpb_wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   margin-left: -1rem;
-  margin-right: -1rem; }
+  margin-right: -1rem;
+  align-items: stretch; }
   .three-col-content-boxes .wpb_wrapper .deeper-content-box,
   .four-col-content-boxes .wpb_wrapper .deeper-content-box {
     padding-left: 1rem;
     padding-right: 1rem;
-    flex: 0 0 auto; }
+    flex: 0 0 auto;
+    height: 100%; }
+    .three-col-content-boxes .wpb_wrapper .deeper-content-box .inner,
+    .four-col-content-boxes .wpb_wrapper .deeper-content-box .inner {
+      height: 100%; }
 
 .four-col-content-boxes .wpb_wrapper .deeper-content-box {
   width: 25%; }

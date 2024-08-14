@@ -426,14 +426,18 @@ blockquote {
     .wpb_wrapper {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: center;
         margin-left: -1rem;
         margin-right: -1rem;
+        align-items: stretch;
         .deeper-content-box {
             padding-left: 1rem;
             padding-right: 1rem;
             flex: 0 0 auto;
+            height: 100%;
+            .inner {
+                height: 100%;
+            }
         }
     }
 }
