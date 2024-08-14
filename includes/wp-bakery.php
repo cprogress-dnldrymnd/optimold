@@ -148,3 +148,12 @@ if (function_exists('vc_map')) {
         );
     }
 }
+
+
+add_shortcode('team_slider', 'action_team_slider');
+
+function action_team_slider() {
+    $teams = get_posts(array(
+        
+    ))
+}
