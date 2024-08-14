@@ -411,4 +411,34 @@ blockquote {
       opacity: 1;
       transform: translateY(0); }
 
+.contact-form-style-1.contact-form-style-1 > .vc_column-inner {
+  display: flex; }
+  .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent-color);
+    border-radius: 44px;
+    width: 100%; }
+    .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 {
+      padding: 40px;
+      color: var(--white-color); }
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 h3 {
+        color: var(--white-color); }
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input::placeholder {
+        color: var(--white-color); }
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 .input-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        margin-right: 1rem; }
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 .input-row .input-half,
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 .input-row .input-full {
+          flex: 0 0 auto;
+          padding-left: 10px;
+          padding-right: 10px; }
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 .input-row .input-half {
+          width: 50%; }
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 .input-row .input-full {
+          width: 100%; }
+
 /*# sourceMappingURL=style.css.map */

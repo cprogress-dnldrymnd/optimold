@@ -539,3 +539,46 @@ blockquote {
         }
     }
 }
+
+.contact-form-style-1.contact-form-style-1 {
+    > .vc_column-inner {
+        display: flex;
+        > .wpb_wrapper {
+            display: flex;
+            align-items: center;
+            background-color: var(--accent-color);
+            border-radius: 44px;
+            width: 100%;
+            .wpcf7 {
+                padding: 40px;
+                color: var(--white-color);
+                h3 {
+                    color: var(--white-color);
+                }
+                input {
+                    &::placeholder {
+                        color: var(--white-color);
+                    }
+                }
+                .input-row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    .input-half,
+                    .input-full {
+                        flex: 0 0 auto;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    .input-half {
+                        width: 50%;
+                    }
+                    .input-full {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
