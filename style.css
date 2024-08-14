@@ -320,6 +320,9 @@ blockquote {
     .prev-next-blog a:hover {
       background-color: var(--secondary-color); }
 
+.three-col-content-boxes > .vc_column-inner,
+.four-col-content-boxes > .vc_column-inner {
+  display: flex; }
 .three-col-content-boxes .wpb_wrapper,
 .four-col-content-boxes .wpb_wrapper {
   display: flex;

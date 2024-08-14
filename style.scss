@@ -423,6 +423,9 @@ blockquote {
 }
 .three-col-content-boxes,
 .four-col-content-boxes {
+    > .vc_column-inner {
+        display: flex;
+    }
     .wpb_wrapper {
         display: flex;
         flex-wrap: wrap;
