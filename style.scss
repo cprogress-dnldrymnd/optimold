@@ -549,8 +549,18 @@ blockquote {
             background-color: var(--accent-color);
             border-radius: 44px;
             width: 100%;
-
+            .vcg_figure {
+                @media (max-width: 991px) {
+                    display: none;
+                }
+            }
             .wpcf7 {
+                @media (max-width: 991px) {
+                    padding-left: 40px;
+                }
+                @media (max-width: 767px) {
+                    padding-left: 30px;
+                }
                 padding: 40px 40px 40px 0;
                 max-width: 500px;
                 color: var(--white-color);

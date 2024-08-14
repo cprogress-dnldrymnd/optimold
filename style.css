@@ -419,10 +419,19 @@ blockquote {
     background-color: var(--accent-color);
     border-radius: 44px;
     width: 100%; }
+    @media (max-width: 991px) {
+      .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .vcg_figure {
+        display: none; } }
     .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 {
       padding: 40px 40px 40px 0;
       max-width: 500px;
       color: var(--white-color); }
+      @media (max-width: 991px) {
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 {
+          padding-left: 40px; } }
+      @media (max-width: 767px) {
+        .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 {
+          padding-left: 30px; } }
       .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 h3 {
         color: var(--white-color); }
       .contact-form-style-1.contact-form-style-1 > .vc_column-inner > .wpb_wrapper .wpcf7 input[type="text"],
