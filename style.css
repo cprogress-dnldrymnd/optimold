@@ -333,15 +333,14 @@ blockquote {
     padding-left: 1rem;
     padding-right: 1rem;
     flex: 0 0 auto;
-    height: 100%;
+    height: auto;
     margin-bottom: 2rem !important; }
     .three-col-content-boxes .wpb_wrapper .deeper-content-box .inner,
     .four-col-content-boxes .wpb_wrapper .deeper-content-box .inner {
       height: 100%; }
 
 .four-col-content-boxes .wpb_wrapper .deeper-content-box {
-  width: 25%;
-  height: auto; }
+  width: 25%; }
   @media (max-width: 991px) {
     .four-col-content-boxes .wpb_wrapper .deeper-content-box {
       width: 50%; } }

@@ -434,9 +434,8 @@ blockquote {
             padding-left: 1rem;
             padding-right: 1rem;
             flex: 0 0 auto;
-            height: 100%;
+            height: auto;
             margin-bottom: 2rem !important;
-
             .inner {
                 height: 100%;
             }
@@ -448,7 +447,6 @@ blockquote {
     .wpb_wrapper {
         .deeper-content-box {
             width: 25%;
-            height: auto;
             @media (max-width: 991px) {
                 width: 50%;
             }
