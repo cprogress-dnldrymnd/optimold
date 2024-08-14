@@ -347,6 +347,9 @@ blockquote {
     .four-col-content-boxes .wpb_wrapper .deeper-content-box {
       width: 50%;
       margin-bottom: 2rem; } }
+  @media (max-width: 575px) {
+    .four-col-content-boxes .wpb_wrapper .deeper-content-box {
+      width: 100%; } }
 
 .three-col-content-boxes .wpb_wrapper .deeper-content-box {
   width: 33.333333%; }
@@ -354,6 +357,9 @@ blockquote {
     .three-col-content-boxes .wpb_wrapper .deeper-content-box {
       width: 50%;
       margin-bottom: 2rem; } }
+  @media (max-width: 575px) {
+    .three-col-content-boxes .wpb_wrapper .deeper-content-box {
+      width: 100%; } }
 
 .deeper-text > span {
   margin-bottom: 1rem;
