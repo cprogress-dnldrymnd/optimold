@@ -341,7 +341,7 @@ blockquote {
 .four-col-content-boxes .wpb_wrapper .deeper-content-box {
   width: 25%;
   height: auto;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem !important; }
   @media (max-width: 991px) {
     .four-col-content-boxes .wpb_wrapper .deeper-content-box {
       width: 50%; } }
