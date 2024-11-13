@@ -565,6 +565,6 @@ html:not(.vc_transform) #main-content {
 
 @media (max-width: 767px) {
   .gap-mobile {
-    gap: 2rem; } }
+    gap: 3rem; } }
 
 /*# sourceMappingURL=style.css.map */
