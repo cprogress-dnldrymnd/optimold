@@ -691,7 +691,7 @@ html:not(.vc_transform) #main-content {
     }
 }*/
 
-.padding-left-right-mobile {
+.padding-left-right-mobile.padding-left-right-mobile {
     @media(max-width: 767px) {
         padding-left: 20px;
         padding-right: 20px;
