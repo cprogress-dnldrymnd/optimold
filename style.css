@@ -558,4 +558,9 @@ html:not(.vc_transform) #main-content {
     padding-left: 20px;
     padding-right: 20px; } }
 
+@media (max-width: 767px) {
+  .deeper-parallax-item.deeper-parallax-item {
+    transform: none !important;
+    -webkit-transform: none !important; } }
+
 /*# sourceMappingURL=style.css.map */
