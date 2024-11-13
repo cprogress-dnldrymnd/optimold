@@ -42,6 +42,10 @@ h6 {
 .site-header-inner,
 .site-header-inner .wrap-inner {
   height: 110px; }
+  @media (max-width: 767px) {
+    .site-header-inner,
+    .site-header-inner .wrap-inner {
+      height: 80px; } }
 
 .swiper-slider-holder .swiper-slider-inner .swiperSlider {
   width: 100%; }
@@ -514,6 +518,10 @@ html:not(.vc_transform) #main-content {
 .header-style-2 .mobile-button:before,
 .header-style-2 .mobile-button:after,
 .header-style-2 .mobile-button span {
-  background-color: #000; }
+  background-color: #000 !important; }
+
+@media (max-width: 767px) {
+  #site-logo img {
+    height: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
