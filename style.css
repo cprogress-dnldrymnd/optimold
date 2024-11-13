@@ -528,4 +528,15 @@ html:not(.vc_transform) #main-content {
   #site-logo img {
     height: 40px; } }
 
+.deeper-news-box.style-1 .thumb {
+  padding: 30%;
+  position: relative; }
+  .deeper-news-box.style-1 .thumb img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
 /*# sourceMappingURL=style.css.map */
