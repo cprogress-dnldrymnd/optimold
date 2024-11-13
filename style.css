@@ -528,6 +528,13 @@ html:not(.vc_transform) #main-content {
   #site-logo img {
     height: 40px; } }
 
+.cube-galleries.cube-galleries.cube-galleries {
+  height: auto !important; }
+  .cube-galleries.cube-galleries.cube-galleries .cbp-wrapper {
+    position: static; }
+    .cube-galleries.cube-galleries.cube-galleries .cbp-wrapper .cbp-item {
+      position: static !important; }
+
 .deeper-news-box.style-1 .thumb {
   padding: 30%;
   position: relative; }
