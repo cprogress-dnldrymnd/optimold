@@ -563,4 +563,8 @@ html:not(.vc_transform) #main-content {
     transform: none !important;
     -webkit-transform: none !important; } }
 
+@media (max-width: 767px) {
+  .gap-mobile {
+    gap: 2rem; } }
+
 /*# sourceMappingURL=style.css.map */

@@ -706,5 +706,7 @@ html:not(.vc_transform) #main-content {
 }
 
 .gap-mobile {
-    
+    @media (max-width: 767px) {
+        gap: 2rem;
+    }
 }
