@@ -618,3 +618,37 @@ blockquote {
         }
     }
 }
+
+#featured-title:not([style*="background-image"]) {
+    background-color: #282f3a;
+}
+#featured-title:not([style*="background-image"]) a,
+#featured-title:not([style*="background-image"]) h1 {
+    color: #fff !important;
+}
+
+#featured-title:not([style*="background-image"]) .inner-wrap.inner-wrap.inner-wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+html:not(.vc_transform) #main-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media (min-width: 1100px) {
+    #main-nav {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+    }
+}
+
+.header-style-2 .mobile-button:before,
+.header-style-2 .mobile-button:after,
+.header-style-2 .mobile-button span {
+    background-color: #000;
+}
