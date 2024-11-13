@@ -567,4 +567,8 @@ html:not(.vc_transform) #main-content {
   .gap-mobile {
     gap: 3rem; } }
 
+@media (max-width: 767px) {
+  .fix-parallax-mobile {
+    left: 0 !important; } }
+
 /*# sourceMappingURL=style.css.map */

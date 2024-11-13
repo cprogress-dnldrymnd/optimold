@@ -710,3 +710,9 @@ html:not(.vc_transform) #main-content {
         gap: 3rem;
     }
 }
+
+.fix-parallax-mobile {
+    @media (max-width: 767px) {
+        left: 0 !important;
+    }
+}
